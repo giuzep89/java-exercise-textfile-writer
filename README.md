@@ -62,11 +62,14 @@ Woord "Java" gevonden: JA
 **Output:** Bevestiging dat het vervangen is
 
 **Voorbeeld:**
+_Input_
 ```
-Input: java TextReplacer
-Vervang: Java
+Java
 Door: Python
-Output: 
+```
+
+_Output_
+```
 Woord vervangen!
 ```
 
