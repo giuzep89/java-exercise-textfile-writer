@@ -11,7 +11,7 @@ public class CleanWriter {
         String input = scanner.nextLine();
 
         PrintWriter writer = new PrintWriter(new FileWriter("uitvoer.txt", true));
-        writer.println(input);
+        writer.print(input);
         writer.close();
 
         scanner.close();

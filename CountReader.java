@@ -12,4 +12,4 @@ public class CountReader {
         System.out.println(count);
         scanner.close();
     }
-} 
+}
