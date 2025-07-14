@@ -49,5 +49,7 @@ public class WordReplacer {
         }
 
         writer.close();
+        fileReader.close();
+        userInput.close();
     }
 }
