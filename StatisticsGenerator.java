@@ -15,7 +15,7 @@ public class StatisticsGenerator {
 
         while(fileReader.hasNextLine()){
             String line = fileReader.nextLine();
-            String[] words = line.split(" ");
+            String[] words = line.trim().split("\\s+");
             for (String w : words){
                 numberOfWords++;
             }
